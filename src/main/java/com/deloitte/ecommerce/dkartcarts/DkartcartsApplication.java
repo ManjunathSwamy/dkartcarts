@@ -12,7 +12,7 @@ import org.springframework.context.annotation.PropertySources;
 @SpringBootApplication
 @ComponentScan(basePackages = { "com.deloitte" })
 @PropertySources({
-@PropertySource(value = "${spring.config.location}")
+//@PropertySource(value = "${spring.config.location}")
 })
 public class DkartcartsApplication extends SpringBootServletInitializer {
 
